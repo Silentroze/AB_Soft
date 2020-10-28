@@ -1,0 +1,41 @@
+{
+  "name": "ab_soft_task",
+  "version": "1.0.0",
+  "description": "",
+  "sync": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/chai-http": "^4.2.0",
+    "@types/faker": "^5.1.2",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.11.2",
+    "@wdio/cli": "^6.5.2",
+    "@wdio/local-runner": "^6.7.0",
+    "@wdio/mocha-framework": "^6.7.0",
+    "@wdio/selenium-standalone-service": "^6.4.7",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.7.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cheerio": "^1.0.0-rc.3",
+    "chromedriver": "^85.0.1",
+    "faker": "5.1.0",
+    "googleapis": "^61.0.0",
+    "mocha": "^8.2.0",
+    "nodemailer": "^6.4.14",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.3",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "6.5.2"
+  }
+}
